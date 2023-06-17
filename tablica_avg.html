@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // function showName(imie) {
+        //     console.log(imie)
+        // }
+
+        // let piszDane = function (imie) {
+        //     console.log(imie)
+        // }
+
+        // let piszDane2= (imie) => console.log(imie)
+
+        // showName("xyz")
+        // piszDane('abc')
+        // piszDane2('def')
+
+        function avg(values) {
+            let sum = 0;
+            for (let i = 0; i < values.length; i++) {
+                sum += values[i]
+            }
+            return sum / values.length;
+        }
+
+        let avg2 = function (values) {
+            let sum = 0;
+            for (let i = 0; i < values.length; i++) {
+                sum += values[i]
+            }
+            return sum / values.length;
+        }
+
+        let avg3 = (values) => {let suma = 0; for (let i = 0; i < values.length; i++) {sum += values[i]}; return sum / values.length;}
+
+        let dane = [2,3,5,8,4];
+
+        console.log(avg(dane))
+        console.log(avg2(dane))
+        console.log(avg3(dane))
+    </script>
+
+</body>
+</html>

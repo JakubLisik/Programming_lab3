@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // function showName(imie) {
+        //     console.log(imie)
+        // }
+
+        // let piszDane = function (imie) {
+        //     console.log(imie)
+        // }
+
+        // let piszDane2= (imie) => console.log(imie)
+
+        // showName("xyz")
+        // piszDane('abc')
+        // piszDane2('def')
+
+        function avg(a,b,c) {
+            return parseInt(a)+parseInt(b)+parseInt(c)/3
+        }
+
+        let avg2 = function (a,b,c) {
+            return parseInt(a)+parseInt(b)+parseInt(c)/3
+        }
+
+        let avg3 = (a,b,c) => (parseInt(a)+parseInt(b)+parseInt(c)/3)
+        
+        console.log(avg(5,10,15))
+        console.log(avg2(5,10,15))
+        console.log(avg3(5,10,15))
+    </script>
+
+</body>
+</html>
